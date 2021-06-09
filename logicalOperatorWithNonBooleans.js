@@ -6,6 +6,7 @@ console.log(eligibleForLoan);
 let EligibleForLoan = highIncome || goofCreditScore; //Logical OR
 console.log(EligibleForLoan);
 
-let a=1
-let b=2
-console.log(a!=b);
+let a=true;
+let b=false;
+console.log(!a);
+console.log(a!=b); // not equal
