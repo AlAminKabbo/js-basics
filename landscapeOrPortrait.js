@@ -1,5 +1,5 @@
-let image=isLandscape(3,7)
-console.log(image);
-function isLandscape(width,hight) {
-    return width>hight ? true:false;
+console.log(isLandscape(900,800));
+
+function isLandscape(width,height) {
+    return (width>height);
 }
