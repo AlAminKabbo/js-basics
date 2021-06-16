@@ -24,6 +24,7 @@ function grade(marks) {
     else if(avarageMark>=90 && avarageMark<=100)
         console.log('A');
 }
+
 function calculateAvarage(array) {
     let sum =0;
     for(let value of array)
