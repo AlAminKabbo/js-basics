@@ -9,10 +9,13 @@ function calculation(number){
         },
         decreaser(){
             console.log(number - 1);
+        },
+        quabe(){
+            console.log(number * number * number)
         }
     
     };
 }
 
-var result = calculation(2);
-result.decreaser();
+var result = calculation(3);
+result.quabe();
