@@ -1,5 +1,5 @@
 let address = {
-    Street: 'Lake Circus, Kalabagan, Dhanmondi',
+    street: 'Lake Circus, Kalabagan, Dhanmondi',
     city: 'Dhaka',
     zipCode: '1205',
 }
