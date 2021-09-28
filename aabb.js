@@ -1,4 +1,4 @@
-let data = window.prompt("Enter your Data: ");
+let data = prompt("Enter your Data: ");
 name = data.toLowerCase();
 
 const string = name;
