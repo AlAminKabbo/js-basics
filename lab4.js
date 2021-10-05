@@ -5,14 +5,14 @@ const string = name;
 
 const usingSplit = string.split('');
 const usingSpread = [...string];
-const input = Array.from(string);
+const usingArrayFrom = Array.from(string);
+console.log(usingArrayFrom.length);
 
-var i;
-for( i=0; i<input; i++){
-    if(input[i] =! 'a'){
-        if(input[i] ){
-        console.log('Wrong Input');
-        return 0
-        }
-    }
-}
+// var i = usingArrayFrom.length;
+// for (i==0; i<usingArrayFrom.length; i++){
+//     if(usingArrayFrom[i] != 'a'){
+//         if(usingArrayFrom[i] != 'b'){
+//             console.log('Wrong Input');
+//         }
+//     }
+// }
